@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Game</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="header">
+    
+        <div class="score-div">
+
+            <span class="lvl-1 circle"></span>
+            <span class="lvl-2 circle"></span>
+
+        </div>
+
+        <label id="score">Points Marqués : <span>0</span></label>
+        <label id="remaining">Combien de Balles Reste : <span>4</span></label>
+        <label id="clicks-remaining">Combien d'Essais Reste : <span>10</span></label>
+       
+   </div>
+    
+    <div class="lvl-1">
+        <div class="div-1-circle circle"></div>
+        <div class="div-1-circle circle"></div>
+        <div class="div-1-circle circle"></div>
+        <div class="div-1-circle circle"></div>
+        <div class="lvl-1-win win">
+            <h2>GOOD</h2>
+            <h3>Now You Can start <span>level 2</span></h3>
+        </div>
+    </div>
+    
+    <div class="lvl-2">
+        <div class="div-2-circle circle"></div>
+        <div class="div-2-circle circle"></div>
+        <div class="div-2-circle circle"></div>
+        <div class="div-2-circle circle"></div>
+        <div class="lvl-2-win win">
+            <h2>GOOD</h2>
+            <h3>You Finished the Game <a href="index.html">Restart</a></h3>
+        </div>
+    </div>
+    
+    
+    <h2 class="lose">Game Over <a href="index.html">Restart</a></h2>
+    
+    
+    <script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+</body>
+</html>

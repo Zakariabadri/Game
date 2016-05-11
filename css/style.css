@@ -1,0 +1,126 @@
+body
+{
+    overflow: hidden;
+    background-color: #ecf0f1;
+}
+
+
+.header
+{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.score-div
+{
+    display: inline-block;
+}
+
+.score-div span
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+span.lvl-1
+{
+    background-color: #f39c12;
+}
+
+span.lvl-1:before
+{
+    content: "2";
+    bottom: -20px;
+    font-size: 12px;
+    position: absolute;
+    left: 7px;
+}
+
+span.lvl-2
+{
+    background-color: #1abc9c;
+}
+
+span.lvl-2:before
+{
+    content: "4";
+    bottom: -20px;
+    font-size: 12px;
+    position: absolute;
+    left: 7px;
+}
+
+label
+{
+    margin-left: 100px;
+}
+
+/**************************************************************/
+
+.circle
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+}
+.div-1-circle
+{
+    background-color: #f39c12;
+}
+
+.div-2-circle
+{
+    background-color: #1abc9c;
+}
+
+.win, .lose
+{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+h2
+{
+    font-size: 100px;
+}
+
+h2 a
+{
+    font-size: 60px;
+}
+
+.win h3
+{
+    font-size: 60px;
+}
+
+.win h3 span, .win h3 a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+.win h3 span:hover, .win h3 a:hover
+{
+    border-bottom: 3px solid blue;
+}
+
+.lvl-2
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
